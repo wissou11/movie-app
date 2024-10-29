@@ -1,0 +1,32 @@
+<div class="details" *ngIf="movie$ | async as movie">
+<img [src]="movie.poster" width="474px" height="711px" [alt]="movie.title">
+<div class="text">
+<h3>{{movie.title}}</h3>
+<div class="container">
+  <p class="labels">Original title</p>
+  <p>{{movie.title}}</p>
+</div>
+<div class="container">
+  <p class="labels">Director</p>
+  <p>{{movie.director}}</p>
+</div>
+<div class="container">
+  <p class="labels">Original language</p>
+  <p>{{movie.language}}</p>
+</div>
+<div class="container">
+  <p class="labels">Release date</p>
+  <p>{{movie.release_date}}</p>
+</div>
+<div class="container">
+  <p class="labels">Vote average</p>
+  <p>{{movie.vote_avg}}</p>
+</div>
+<div class="container">
+  <p class="labels">Vote count</p>
+  <p>{{movie.vote_count}}</p>
+</div>
+<p class="labels">Overview</p>
+<p id="overview">{{movie.overview}}</p>
+</div>
+</div>

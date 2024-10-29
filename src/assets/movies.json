@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "title": "Inception",
+    "overview": "A skilled thief is offered a chance to erase his past crimes by planting an idea in someone's subconscious.",
+    "poster": "assets/posters/inception.jpg",
+    "director": "Christopher Nolan",
+    "language": "English",
+    "release_date": "2010-07-16",
+    "vote_avg": 8.8,
+    "vote_count": 21000
+  },
+  {
+    "id": 2,
+    "title": "Parasite",
+    "overview": "A poor family schemes to become employed by a wealthy family by infiltrating their household.",
+    "poster": "assets/posters/parasite.jpg",
+    "director": "Bong Joon-ho",
+    "language": "Korean",
+    "release_date": "2019-05-30",
+    "vote_avg": 8.6,
+    "vote_count": 17000
+  },
+  {
+    "id": 3,
+    "title": "The Godfather",
+    "overview": "The aging patriarch of an organized crime dynasty transfers control to his reluctant son.",
+    "poster": "assets/posters/thegodfather.jpg",
+    "director": "Francis Ford Coppola",
+    "language": "English",
+    "release_date": "1972-03-24",
+    "vote_avg": 9.2,
+    "vote_count": 15000
+  },
+  {
+    "id": 4,
+    "title": "Interstellar",
+    "overview": "A team of explorers travels through a wormhole in space in an attempt to ensure humanity's survival.",
+    "poster": "assets/posters/interstellar.jpg",
+    "director": "Christopher Nolan",
+    "language": "English",
+    "release_date": "2014-11-07",
+    "vote_avg": 8.6,
+    "vote_count": 19000
+  },
+  {
+    "id": 5,
+    "title": "Spirited Away",
+    "overview": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits.",
+    "poster": "assets/posters/spiritedaway.jpg",
+    "director": "Hayao Miyazaki",
+    "language": "Japanese",
+    "release_date": "2001-07-20",
+    "vote_avg": 8.6,
+    "vote_count": 18000
+  },
+  {
+    "id": 6,
+    "title": "Pulp Fiction",
+    "overview": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+    "poster": "assets/posters/pulpfiction.jpg",
+    "director": "Quentin Tarantino",
+    "language": "English",
+    "release_date": "1994-10-14",
+    "vote_avg": 8.9,
+    "vote_count": 22000
+  },
+  {
+    "id": 7,
+    "title": "The Shawshank Redemption",
+    "overview": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "poster": "assets/posters/theshawshankredemption.jpg",
+    "director": "Frank Darabont",
+    "language": "English",
+    "release_date": "1994-09-23",
+    "vote_avg": 9.3,
+    "vote_count": 24000
+  },
+  {
+    "id": 8,
+    "title": "The Dark Knight",
+    "overview": "When the menace known as The Joker emerges, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+    "poster": "assets/posters/thedarkknight.jpg",
+    "director": "Christopher Nolan",
+    "language": "English",
+    "release_date": "2008-07-18",
+    "vote_avg": 9.0,
+    "vote_count": 23000
+  },
+  {
+    "id": 9,
+    "title": "Forrest Gump",
+    "overview": "The story of Forrest Gump, a man with a low IQ who lives an extraordinary life and witnesses historic events.",
+    "poster": "assets/posters/forrestgump.jpg",
+    "director": "Robert Zemeckis",
+    "language": "English",
+    "release_date": "1994-07-06",
+    "vote_avg": 8.8,
+    "vote_count": 21000
+  },
+  {
+    "id": 10,
+    "title": "Fight Club",
+    "overview": "An insomniac office worker and a soap maker form an underground fight club that spirals out of control.",
+    "poster": "assets/posters/fightclub.jpg",
+    "director": "David Fincher",
+    "language": "English",
+    "release_date": "1999-10-15",
+    "vote_avg": 8.8,
+    "vote_count": 20000
+  },
+  {
+    "id": 11,
+    "title": "The Matrix",
+    "overview": "A computer hacker learns about the true nature of reality and his role in the war against its controllers.",
+    "poster": "assets/posters/thematrix.jpg",
+    "director": "The Wachowskis",
+    "language": "English",
+    "release_date": "1999-03-31",
+    "vote_avg": 8.7,
+    "vote_count": 19000
+  },
+  {
+    "id": 12,
+    "title": "Schindler's List",
+    "overview": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+    "poster": "assets/posters/schindlerslist.jpg",
+    "director": "Steven Spielberg",
+    "language": "English",
+    "release_date": "1993-11-30",
+    "vote_avg": 9.0,
+    "vote_count": 21000
+  }
+]

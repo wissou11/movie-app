@@ -1,0 +1,21 @@
+.details{
+  display: flex;
+  background-color: black;
+}
+.details img, .details .text{
+  padding: 50px;
+}
+.container{
+  display: flex;
+  justify-content:start;
+  align-items: center;
+  color: white;
+}
+#overview{
+  color: white;
+}
+.labels{
+  width: 200px;
+  color: yellow;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}

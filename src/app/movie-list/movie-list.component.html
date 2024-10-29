@@ -1,0 +1,14 @@
+<app-search-bar (titleSearch)="onSearch($event)"></app-search-bar>
+<div *ngIf="movies$ | async as movies; else noMovies">
+  <div class="movies-grid">
+    <div *ngFor="let movie of movies" class="movie-card" >
+      <a [routerLink]="['movie-detail', movie.id]" (click)="onMovieClick(movie)"> <!-- Use routerLink for navigation -->
+        <img [src]="movie.poster" alt="{{ movie.title }} poster" class="movie-poster" />
+        <h3 class="movie-title">{{ movie.title }}</h3>
+      </a>
+    </div>
+  </div>
+</div>
+<ng-template #noMovies>
+  <p>No movies found.</p>
+</ng-template>

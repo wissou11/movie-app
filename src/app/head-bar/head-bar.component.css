@@ -1,0 +1,29 @@
+div{
+  background-color: yellow;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+h1{
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+button{
+  background-color: black;
+  color: yellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  width: 120px;
+  padding: 10px;
+  border-radius: 8px;
+}
+button p{
+  font-size: 1rem;
+}
+svg{
+  margin-top: 2px;
+}

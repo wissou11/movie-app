@@ -1,0 +1,56 @@
+/* Main grid container */
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns per row */
+  gap: 16px; /* Space between movie cards */
+  padding: 16px;
+  background-color: black;
+}
+
+/* Movie card styling */
+.movie-card {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 250px;
+  margin: 0 auto; /* Center align each card */
+}
+
+/* Poster image styling */
+.movie-poster {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Title styling */
+.movie-title {
+  font-size: 1em;
+  margin-top: 8px;
+  color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .movies-grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns per row for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .movies-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns per row for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .movies-grid {
+    grid-template-columns: 1fr; /* 1 column per row for extra small screens */
+  }
+}
+
+a{
+ text-decoration: none;
+}
